@@ -55,7 +55,7 @@ export default class tellbooks extends Component {
           ref={this.WEBVIEW_REF}
           onNavigationStateChange={this.onNavigationStateChange.bind(this)}
           startInLoadingState={true}
-          renderLoading={() => <ActivityIndicator size="large" color="#f66c1f" style={{ position: 'absolute', left: 0, right: 0, bottom: 0, top: 0, }} />}
+          renderLoading={() => <ActivityIndicator size="large" color="#0066f5" style={{ position: 'absolute', left: 0, right: 0, bottom: 0, top: 0, }} />}
           style={{ marginTop: 40 }}
           pullToRefreshEnabled={true}
           onContentProcessDidTerminate={(syntheticEvent) => {
