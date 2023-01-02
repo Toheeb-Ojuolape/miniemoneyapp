@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@expo/webpack-config": "^0.17.2",
-    "eas-cli": "^2.6.0",
     "expo": "~47.0.3",
     "expo-status-bar": "~1.4.2",
     "expo-updates": "~0.15.4",
@@ -18,11 +17,13 @@
     "react-dom": "18.1.0",
     "react-native": "0.70.5",
     "react-native-elements": "^3.0.0-alpha.1",
-    "react-native-web": "~0.18.9",
-    "react-native-webview": "11.23.1"
+    "react-native-gesture-handler": "^2.8.0",
+    "react-native-web": "~0.18.7",
+    "react-native-webview": "11.23.1",
+    "react-navigation": "^4.4.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.19.3"
   },
   "private": true
 }
